@@ -2,4 +2,4 @@
 
 Flight Reservation System
 
-Electrivity Bill
+Electricity Bill
