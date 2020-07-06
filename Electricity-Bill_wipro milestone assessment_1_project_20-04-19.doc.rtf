@@ -1,0 +1,225 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil Times New Roman;}{\f2\fnil\fcharset0 Calibri;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue0;\red211\green211\blue211;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.10586}\viewkind4\uc1 
+\pard\sb100\sa100\sl253\slmult0\qc\cf1\b\f0\fs24\lang9 Project Assessment\cf0\b0\par
+
+\pard\sb100\sa100\sl253\slmult0\qj\cf1\b GENERAL INSTRUCTIONS: \b0 Please carefully read the below instructions\cf0\par
+\cf1 The objective of this assessment is to check your ability to complete a project as per the provided \ldblquote Project Design\rdblquote .\cf0\par
+
+\pard\sb100\sl240\slmult1\qj\cf1\b You are expected to \f1\endash\cf0\b0\f0\par
+
+\pard\fi-360\sb100\sl240\slmult1\qj\cf1 1.\fs14\~\~\~\~\~ \fs24 Write the source code for the classes, methods and packages \b EXACTLY\b0  as mentioned in the \ldblquote\b Project Design\b0\rdblquote  section.\cf0\par
+
+\pard\fi-360\sb100\sa100\sl253\slmult0\qj\cf1 2.\fs14\~\~\~\~\~ \fs24 Ensure that the names of the packages, classes, methods and variables \b EXACTLY MATCH\b0  with the names specified in the \ldblquote Project Design\rdblquote  section.\cf0\par
+\cf1 3.\fs14\~\~\~\~\~ \fs24 Understand the project requirements and ACCORDINGLY WRITE the code and logic in the classes and methods so as to meet all given requirements.\cf0\par
+
+\pard\sb100\sl240\slmult1\qj\cf1\b Creating the project and testing it \f1\endash\cf0\b0\f0\par
+
+\pard\fi-360\sb100\sl240\slmult1\qj\cf1 1.\fs14\~\~\~\~\~ \fs24 You are expected to create your project locally using eclipse (or any other IDE) on your desktop. \cf0\par
+
+\pard\fi-360\sb100\sl253\slmult0\qj\cf1 2.\fs14\~\~\~\~\~ \fs24 Once you are ready with the code, you should upload the src folder of your project in .zip format, using the \ldblquote Upload Zip File\rdblquote  button.\cf0\par
+
+\pard\sb100\sl253\slmult0\qj\cf1 IMPORTANT NOTE 1 : The extension of the zip file should be ONLY .zip (any other zip formats such as .7z\~ will produce unexpected results)\cf0\par
+\cf1 IMPORTANT NOTE 2 : The .zip file should contain zip of ONLY the src folder structure from your project. (If the zip file has anything other than the src folder structure, the result will be unexpected. Do not zip the entire project folder structure. Just do the zip of the src folder structure and upload it)\cf0\par
+\cf1 IMPORTANT NOTE 3 : The name of the .zip file should be <your employee number>.zip For e.g., if your emp no. is 12345, the zip file should be named 12345.zip.\cf0\par
+
+\pard\fi-360\sb100\sl253\slmult0\qj\cf1 3.\fs14\~\~\~\~\~ \fs24 After uploading the zip file, you can click on \ldblquote Compile & Test\rdblquote  button and the assessment engine will compile your source code and test it using its pre-defined test-cases.\cf0\par
+\cf1 4.\fs14\~\~\~\~\~ \fs24 If some of the test-cases fail, you can make the fixes in your source code locally on your desktop, and again repeat the above two steps.\cf0\par
+\cf1 5.\fs14\~\~\~\~\~ \fs24 Once you are finished with all the fixes, you can click on \ldblquote Final Submission\rdblquote  button, which will show you the final result/score.\cf0\par
+
+\pard\sb100\sl253\slmult0\qj\cf1\~\cf0\par
+
+\pard\sb100\sa100\sl253\slmult0\qj\cf1\b NOTE that \f1\endash\cf0\b0\f0\par
+
+\pard\fi-360\sb100\sa100\sl253\slmult0\qj\cf1 6.\fs14\~\~\~\~\~ \fs24 The assessment engine will create objects and invoke methods as per the project design, and while doing so, it will use your packages, classes and methods. If your packages, classes and methods have a name mismatch or method prototype mismatch w.r.t the expected \ldblquote Project Design\rdblquote , the tool will show it as an ERROR. If your packages, classes and methods match as per the names but do not perform the expected functionality, the tool will show it as a FAILURE.\cf0\par
+\cf1 7.\fs14\~\~\~\~\~ \fs24 Unless specified in the Project Design, DO NOT use \cf0\b System.exit(0)\b0  \cf1 anywhere in your code. Using \cf0\b System.exit(0)\b0  \cf1 in your project code will cause the CPC test engine to exit and it will not be able to run all test-cases.\cf0\par
+
+\pard\sb100\sa100\sl253\slmult0\qc\cf1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\cf0\par
+
+\pard\sb100\sa100\sl240\slmult1\qc\b\fs28 Electricity Bill Calculation\b0\fs24\par
+
+\pard\sb100\sa100\sl240\slmult1\b\fs28 Project Objective:\b0\fs24\par
+\cf1 Create a console based Java application that would allow an electricity board clerk to compute the electricity bill amount that needs to be paid by the customer for a given type of electricity connection\cf0\par
+\b\fs28 Details:\b0\fs24\par
+\cf1 There are two types of electric connections available. One is Domestic Connection and the other one is Commercial Connection. The following are the formulas that are to be used for computation of Bill for each type.\cf0\par
+\cf1\b Domestic\cf0\b0\par
+\trowd\trgaph108\trrh420\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1 Unit Slabs\cf0\f2\fs22\cell\cf1\f0\fs24 Tariff Rate\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 First 50 units\cf0\f2\fs22\cell\cf1\f0\fs24 2.3\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Next 50 units\cf0\f2\fs22\cell\cf1\f0\fs24 4.2\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Remaining units\cf0\f2\fs22\cell\cf1\f0\fs24 5.5\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\cf1\f0\fs24\~\cf0\par
+\cf1 Eg) If units consumed is 120, then amount payable is 435.\cf0\par
+\cf1\b Commercial\cf0\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1 Unit Slabs\cf0\f2\fs22\cell\cf1\f0\fs24 Tariff Rate\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 First 50 units\cf0\f2\fs22\cell\cf1\f0\fs24 5.2\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Next 50 units\cf0\f2\fs22\cell\cf1\f0\fs24 6.8\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2141\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3415 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Remaining units\cf0\f2\fs22\cell\cf1\f0\fs24 8.3\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\cf1\f0\fs24\~\cf0\par
+\cf1 In Commercial Connection type, in addition to the bill amount there is an electricity duty that is applicable. The calculations for the electricity duty is as follows:\cf0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2335\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3955 
+\pard\intbl\sb100\sl240\slmult1\cf1 BillAmount\cf0\f2\fs22\cell\cf1\f0\fs24 Electricity Duty\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2335\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3955 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Bill Amount >= 10000\cf0\f2\fs22\cell\cf1\f0\fs24 0.09\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2335\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3955 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Bill Amount >=5000\cf0\f2\fs22\cell\cf1\f0\fs24 0.06\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2335\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3955 
+\pard\intbl\sb100\sl240\slmult1\cf1\f0\fs24 Bill Amount < 5000\cf0\f2\fs22\cell\cf1\f0\fs24 0.02\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\cf1\f0\fs24\~\cf0\par
+\cf1\highlight2 For example, if Bill Amount>10000 then\cf0\highlight0\par
+\cf1\highlight2\b Electricity Duty=Bill Amount* 0.09\cf0\highlight0\b0\par
+\cf1\highlight2 So the \b Final Amount Payable =Bill Amount + Electricity Duty\cf0\highlight0\b0\par
+\cf1 Eg) If units consumed is 120, then amount payable is 781.32 (i.e. 766 + 15.32)\cf0\par
+\b\fs26 Project Design:\b0\fs24\par
+\b\fs26 A. System Design:\b0\fs24\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2898\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b Name of the package\b0\f2\fs22\cell\b\f0\fs24 Usage\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2898\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\f0\fs24 com.wipro.eb.entity\f2\fs22\cell\f0\fs24 This package will contain the EB Connection related classes \f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2898\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\f0\fs24 com.wipro.eb.exception\f2\fs22\cell\f0\fs24 This package will contain the user defined exception classes\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2898\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\f0\fs24 com.wipro.eb.main\f2\fs22\cell\f0\fs24 This package will contain the MainClass that is used to test the application\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2898\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\f0\fs24 com.wipro.eb.service\f2\fs22\cell\f0\fs24 This package will contain the class that is used to validate the data and invoke the respective EB Connection Classes to calculate the bill amount\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\f0\fs24\~\par
+\par
+\par
+\par
+\b Package: com.wipro.eb.exception\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2830\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6339\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24 Method and Variables\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2830\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6339\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 InvalidReadingException\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 A user defined exception class. Details about when this exception is given in the respective methods\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2830\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6339\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 public String toString() \b0\f2\fs22\cell\f0\fs24 This function should return\par
+\ldblquote\b Incorrect Reading\b0\rdblquote\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\b\f0\fs24 Package: com.wipro.eb.exception\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3150\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6377\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3150\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6377\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 InvalidConnectionException\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 A user defined exception class. Details about when this exception is given in the respective methods\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx3150\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6377\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 public String toString()\b0\f2\fs22\cell\f0\fs24 This function should return\par
+\ldblquote\b Invalid ConnectionType\b0\rdblquote\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\b\f0\fs24\~\b0\par
+\b Package: com.wipro.eb.entity\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24 Method and Variables\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 Connection\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 Abstract Class\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 int previousReading;\f2\fs22\cell\cf1\f0\fs24 Previous month meter reading\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 int currentReading;\f2\fs22\cell\cf1\f0\fs24 Current month meter reading\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 float[] slabs;\f2\fs22\cell\cf1\f0\fs24 Used to store different slab rate\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 public Connection(int currentReading, int previousReading,float slabs[])\f2\fs22\cell\cf1\f0\fs24 A constructor used to initialize the member variables\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 public abstract float computeBill()\f2\fs22\cell\cf1\f0\fs24 An abstract method to compute the bill for a particular month\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 Getter and Setter methods for all the member variables\f2\fs22\cell\cf1\f0\fs24 Getter and Setter methods for all member variables\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\b\f0\fs24\~\par
+\par
+\par
+\b0\par
+\b Package: com.wipro.eb.entity\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1776\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx4629\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24 Method and Variables\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1776\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx4629\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 Domestic\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 Inherits Connection Class\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1776\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx4629\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\cf1\highlight3\f0\fs24\~\cf0\highlight0\f2\fs22\cell\f0\fs24 public Domestic(int currentReading, int previousReading,float slabs[])\f2\fs22\cell\cf1\b\f0\fs24 A parameterized constructor\cf0\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1776\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx4629\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\cf1\highlight3\f0\fs24\~\cf0\highlight0\f2\fs22\cell\cf1\f0\fs24 public float computeBill()\cf0\f2\fs22\cell\cf1\f0\fs24 Should compute the amount to be paid by the customer for the given reading. Use the formula that is given at the beginning of the case study\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\f0\fs24\~\par
+\b Package: com.wipro.eb.entity\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1547\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5488\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24 Method and Variables\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1547\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5488\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 Commercial\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 Inherits Connection Class\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1547\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5488\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\f0\fs24\~\f2\fs22\cell\f0\fs24 public Commercial(int currentReading, int previousReading,float slabs[])\f2\fs22\cell\cf1\b\f0\fs24 A parameterized constructor \cf0\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1547\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5488\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\f0\fs24\~\f2\fs22\cell\cf1\f0\fs24 public float computeBill()\cf0\f2\fs22\cell\cf1\f0\fs24 Should compute the amount to be paid by the customer for the given reading. Use the formula that is given at the beginning of the case study\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\b\f0\fs24\~\b0\par
+\b Package : com.wipro.eb.service\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2136\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6033\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24 Method and Variables\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2136\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6033\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 ConnectionService\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 Class\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2136\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6033\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 public boolean validate(int currentReading, int previousReading, String type) throws InvalidReadingException, InvalidConnectionException\f2\fs22\cell 
+\pard\intbl\fi-360\sb100\sl240\slmult1\cf1\f3\fs24\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the \b currentReading is less than previousReading\b0  or if \b any of the readings are negative\b0  then the function should throw \b InvalidReadingException\cf0\b0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the type is \b anything other than Domestic or Commercial\b0  the function should throw \b InvalidConnectionException\cf0\b0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If all the 3 data are valid the function should return true\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2136\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6033\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 public float calculateBillAmt(int currentReading, int previousReading, String type) \f2\fs22\cell 
+\pard\intbl\fi-360\sb100\sl240\slmult1\cf1\f3\fs24\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 This method will invoke the validate method to check whether all the 3 inputs received are valid\cf0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the validate method throws InvalidReadingException, this function should handle it and return -1\cf0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the validate method throws InvalidConnectionException, this function should handle it and return -2\cf0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the validate method returns \b true \b0 this function should create appropriate Connection type object and invoke the computeBill method and return the computed billamount.\cf0\par
+
+\pard\intbl\sb100\sl240\slmult1\cf1 [If type is \ldblquote Domestic\rdblquote , then the Domestic object needs to be created If type is \ldblquote Commercial\rdblquote , then the Commercial object needs to be created.]\cf0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx2136\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx6033\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9576 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 public String generateBill(int currentReading, int previousReading, String type)\f2\fs22\cell 
+\pard\intbl\fi-360\sb100\sl240\slmult1\cf1\f3\fs24\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 This method should invoke the calculateBillAmt method.\cf0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the return value of calculateBillAmt is -1, this method should return \b\ldblquote Incorrect Reading\rdblquote\cf0\b0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 If the return value of calculateBillAmt is -2, this method should return \b\ldblquote Invalid ConnectionType\rdblquote\cf0\b0\par
+\cf1\f3\'b7\f0\fs14\~\~\~\~\~\~\~\~ \fs24 Else this method should return a String in the following format. Suppose the return value of calculateBillAmt is 256, then this function should return \b\ldblquote Amount to be paid:256\rdblquote\cf0\b0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\b\f0\fs24\~\b0\par
+\b Package : com.wipro.eb.main\b0\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrt\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b Class\b0\f2\fs22\cell\b\f0\fs24 Method and Variables\b0\f2\fs22\cell\b\f0\fs24 Description\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24 EBMain\b0\f2\fs22\cell\b\f0\fs24\~\b0\f2\fs22\cell\b\f0\fs24 Main Class\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat1\clcbpat4\clbrdrl\brdrw16\brdrs\brdrcf1\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx1510\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx5627\clcfpat1\clcbpat4\clbrdrr\brdrw16\brdrs\brdrcf1\clbrdrb\brdrw16\brdrs\brdrcf1 \cellx9350 
+\pard\intbl\sb100\sl240\slmult1\b\f0\fs24\~\b0\f2\fs22\cell\f0\fs24 public static void main(String[] args)\f2\fs22\cell\cf1\f0\fs24 Get the following input from the user\cf0\par
+
+\pard\intbl\fi-360\sb100\sl240\slmult1\cf1 1.\fs14\~\~\~\~\~\~ \fs24 Get the previous month reading\cf0\par
+\cf1 2.\fs14\~\~\~\~\~\~ \fs24 Get the current month reading\cf0\par
+\cf1 3.\fs14\~\~\~\~\~\~ \fs24 Get the Connection Type\cf0\par
+
+\pard\intbl\sb100\sl240\slmult1\cf1 After receiving all this data, invoke the generateBill method of ConnectionService class present in com.wipro.eb.service package and test your program\cf0\f2\fs22\cell\row 
+\pard\sb100\sa100\sl240\slmult1\b\f0\fs24\~\b0\par
+\b The main method of the EBMain Class may look like this:\b0\par
+public static void main(String a[])\par
+\{\par
+System.out.println(new ConnectionService().generateBill(130,100,"Commercial"));\par
+\}\par
+Test your program with different inputs.\par
+\b\fs26 TestCases:- \b0\fs24\par
+
+\pard\fi-360\sb100\sa100\sl240\slmult1 1.\fs14\~\~\~\~\~\~ \fs24 Test calculateBillAmt() with all valid values for Domestic type connection where the consumed units are below or equal to 50\par
+2.\fs14\~\~\~\~\~\~ \fs24 Test calculateBillAmt() with all valid values for Domestic type connection where the consumed units are between 50 and 100\par
+3.\fs14\~\~\~\~\~\~ \fs24 Test calculateBillAmt() with all valid values for Domestic type connection where the consumed units are equal or above 100\par
+4.\fs14\~\~\~\~\~\~ \fs24 Test calculateBillAmt() \~with all valid values for Commercial type connection where the consumed units are below or equal to 50\par
+5.\fs14\~\~\~\~\~\~ \fs24 Test calculateBillAmt() with all valid values for Commercial type connection where the consumed units are between 50 and 100\par
+6.\fs14\~\~\~\~\~\~ \fs24 Test calculateBillAmt() with all valid values for Commercial type connection where the consumed units are equal or above 100\par
+7.\fs14\~\~\~\~\~\~ \fs24 Test validate() method with all valid values\par
+8.\fs14\~\~\~\~\~\~ \fs24 Test validate() method for Invalid Reading Exception \par
+9.\fs14\~\~\~\~\~\~ \fs24 Test validate() method for Invalid Connection Type Exception\par
+10.\fs14\~\~ \fs24 Test generateBill() method with all valid values and invalid values\par
+
+\pard\sa200\sl276\slmult1\f2\fs22\par
+}
+ 
